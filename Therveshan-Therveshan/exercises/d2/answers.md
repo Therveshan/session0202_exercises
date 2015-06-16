@@ -9,6 +9,6 @@
 <li>Batwoman</li>
 <li>"Miley"</li>
 <li>rapper[0]</li>
-<li>rapper[1..3]</li>
+<li>rapper[0..2]</li>
 
 </ol>
