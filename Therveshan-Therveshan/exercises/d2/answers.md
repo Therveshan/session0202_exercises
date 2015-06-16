@@ -1,10 +1,14 @@
-x = 5
-string
-No
-"YOLO"
-"Coolio"
-TypeError: no implicit conversion of Fixnum into String
-Batwoman
-"Miley"
-rapper[0]
-rapper[1..3]
+<ol>
+
+<li>x = 5</li>
+<li>string</li>
+<li>No</li>
+<li>"YOLO"</li>
+<li>"Coolio"</li>
+<li>TypeError: no implicit conversion of Fixnum into</li> <li>String</li>
+<li>Batwoman</li>
+<li>"Miley"</li>
+<li>rapper[0]</li>
+<li>rapper[1..3]</li>
+
+</ol>
