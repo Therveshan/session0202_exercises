@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'>
+  <title>Therveshan Moodley</title>
+  <style>
+    body {
+      text-align: center;
+      background: url(http://i.imgur.com/YPY1sUd.jpg);
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      font-size:40px
+    }
+    header {
+      text-align: center;
+      font-family: "HelveticaNeue-Light", cursive;
+      font-size: 30px;
+      margin: -12px 0 0 0;
+    }
+    h2 {
+      text-align: center;
+      font-family: 'sans-serif', cursive;
+      font-size: 20px;
+      margin: -60px 0 0 0;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    div {
+      height: 200px
+      margin: 40px 0 -100px 0;
+      border-radius: 12px;
+    }
+    p {
+      color: rgba(255,255,255,1);
+      background: rgba(0,0,0,0.4);
+      border-radius: 20px;
+      padding: 50px;
+      line-height:28px;
+      text-align: justify;
+      bottom: 10px;
+      margin: 10px;
+      height: 20px;
+      transition: height 1s;
+    }
+    small {
+      opacity: 0;
+    }
+    .show-description p {
+      height: 150px;
+    }
+
+    .show-description small {
+      opacity: 1;
+    }
+    .ans {
+    float: right;
+    }
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="http://i.imgur.com/1yT2ZWs.jpg?1">
+    <h1>Therveshan Moodley</h1>
+    <h2>University of Cape Town</h2>
+  </header>
+  
+ 
+<p> Email address: mdlthe021@myuct.ac.za</p>
+<p> Address: 501, The Rondebosch </p>
+<p> Facebook (Therveshan Moodley)</p>
+
+<p><a href="/">HOME</a> is a link to my home page
+
+</p> 
+  
+  <script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+
+</body>
