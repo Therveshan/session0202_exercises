@@ -1,22 +1,83 @@
 
 dishes= {
-:hotdog=>["Boerewors, Roll, Sauce"], 
-:sandwich=>["bread, salad, butter, chicken, mayo"], 
-:burger=> ["Bun, Patty, Sauce, Cheese"] 
+	:hotdog=>["Boerewors, Roll, Sauce"], 
+	:sandwich=>["bread, salad, butter, chicken, mayo"], 
+	:burger=> ["Bun, Patty, Sauce, Cheese"] 
 }
 
 recipes= {
-:hotdog=>{:description=> ["A boerewors, especially one served hot in a long soft roll."]
-:ingredients=>["Boerewors, Roll, Sauce"]
-:steps=>["Put wors in roll with sauce on it"]	
+	:hotdog=>{:description=> ["A boerewors, especially one served hot in a long soft roll."]
+	:ingredients=>["Boerewors, Roll, Sauce"]
+	:steps=>["Put wors in roll with sauce on it"]	
 }
 
-:sandwich=>{:description=> ["Flat bread with chicken and salad with mayo as a sauce"],
-:ingredients=>["bread, salad, chicken, mayo"],
-:steps=>["Butter the bread, then enter the chicken and salad and use the mayo as a sauce and binder"]	
+	:sandwich=>{:description=> ["Flat bread with chicken and salad with mayo as a sauce"],
+	:ingredients=>["bread, salad, chicken, mayo"],
+	:steps=>["Butter the bread, then enter the chicken and salad and use the mayo as a sauce and binder"]	
 }	
-:burger=>{:description=> ["A bun with a chicken/beef patty in it, with melted cheese and a sauce of your choice"]
-:ingredients=>["Bun, Patty, Sauce, Cheese"]
-:steps=>["Similar to a hotdog"]
+	:burger=>{:description=> ["A bun with a chicken/beef patty in it, with melted cheese and a sauce of your choice"]
+	:ingredients=>["Bun, Patty, Sauce, Cheese"]
+	:steps=>["Similar to a hotdog"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 }
 }
